@@ -8,5 +8,5 @@ Mastodon natively supports the [Web Push API](https://developer.mozilla.org/en-U
 
 The relevant parts of the Mastodon REST API are:
 
-- `GET|POST|PUT /api/v1/push/subscription` ([Documentation](API.md#adding-push-subscription))
+- `GET|POST|PUT|DELETE /api/v1/push/subscription` ([Documentation](API.md#adding-push-subscription))
 - You need to request authorization for the `push` scope from the user to be able to use that API
